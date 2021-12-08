@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+.card-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  width: 68%;
+  height: 45vh;
+  background-color: #fff;
+  box-shadow: #000 3px 3px 5px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 150%;
+  padding: 10px;
+}
+
+.card-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.card-endereco {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.linha-botao {
+  width: 60%;
+  margin: 0 20%;
+  border: solid 1px #c1c1c1;
+}
+
+.btn-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 20px 20px 0 0;
+  width: 20%;
+  height: 50px;
+  background-image: linear-gradient(120deg, #3498db, #292bad);
+  border: none;
+  margin: 20px 20%;
+  border-radius: 5px;
+  width: 60%;
+  background-size: 200%;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-link:hover {
+  background-position: right;
+}
+
+.loading {
+  margin: 20vh 100%;
+  width: 100%;
+}

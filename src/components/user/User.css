@@ -1,0 +1,12 @@
+.container-user {
+  display: flex;
+}
+
+.profile {
+  width: 30%;
+}
+
+.menu {
+  width: 100%;
+  margin: 0 20px;
+}
